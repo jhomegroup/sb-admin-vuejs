@@ -44,7 +44,7 @@
           data-bs-toggle="dropdown"
           aria-expanded="false"
           ><i class="fas fa-user fa-fw"></i
-        ></a>
+        >Your Username</a>
         <ul
           class="dropdown-menu dropdown-menu-end"
           aria-labelledby="navbarDropdown"
