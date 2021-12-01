@@ -10,7 +10,7 @@
                   <img
                     src="../assets/logo-MOPH.png"
                     class="rounded mx-auto d-block"
-                    alt="..."
+                    alt="logo moph"
                     width="120"
                   />
                   <h3 class="text-center font-weight-light my-4">
