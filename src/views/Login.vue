@@ -7,7 +7,15 @@
             <div class="col-lg-5">
               <div class="card shadow-lg border-0 rounded-lg mt-5">
                 <div class="card-header">
-                  <h3 class="text-center font-weight-light my-4">Login</h3>
+                  <img
+                    src="../assets/logo-MOPH.png"
+                    class="rounded mx-auto d-block"
+                    alt="..."
+                    width="120"
+                  />
+                  <h3 class="text-center font-weight-light my-4">
+                    Login your system name
+                  </h3>
                 </div>
                 <div class="card-body">
                   <form>
@@ -58,7 +66,10 @@
                 </div>
                 <div class="card-footer text-center py-3">
                   <div class="small">
-                    <a href="#">Need an account? Sign up!</a>
+                    <!-- <a href="#">Need an account? Sign up!</a> -->
+                    <router-link to="/register"
+                      >Need an account? Sign up!</router-link
+                    >
                   </div>
                 </div>
               </div>

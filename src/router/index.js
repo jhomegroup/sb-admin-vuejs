@@ -11,6 +11,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
+    { path: '/', redirect: { name: 'Login' } },
     { path: '*', redirect: { name: '404Page' } },
     {
       path: '/404',

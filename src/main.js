@@ -9,6 +9,7 @@ Vue.config.productionTip = false
 import './assets/startbootstrap-sb-admin-gh-pages/css/styles.css'
 
 import JQuery from 'jquery'
+import store from './store'
 window.$ = JQuery
 
 /* eslint-disable no-new */
@@ -16,5 +17,6 @@ new Vue({
   el: '#app',
   router,
   components: { App },
+  store,
   template: '<App/>'
 })
