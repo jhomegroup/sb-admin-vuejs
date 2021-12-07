@@ -6,7 +6,6 @@ import Pages from '@/views/Pages'
 import Login from '@/views/Login'
 import Register from '@/views/Register'
 import Page404 from '@/views/Error/Page404'
-import Find from '@/views/Find'
 
 Vue.use(Router)
 
@@ -18,11 +17,6 @@ export default new Router({
       path: '/404',
       name: '404Page',
       component: Page404,
-    },
-    {
-      path: '/find',
-      name: 'Find',
-      component: Find,
     },
     {
       path: '/login',
