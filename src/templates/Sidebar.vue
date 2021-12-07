@@ -4,13 +4,13 @@
       <div class="sb-sidenav-menu">
         <div class="nav">
           <div class="sb-sidenav-menu-heading">Menu</div>
-          <router-link class="nav-link" to="/fontend/dashboard">
+          <router-link class="nav-link" to="/frontend/">
             <div class="sb-nav-link-icon">
               <i class="fas fa-circle"></i>
             </div>
             Dashboard
           </router-link>
-          <router-link class="nav-link" to="/fontend/pages">
+          <router-link class="nav-link" to="/frontend/pages">
             <div class="sb-nav-link-icon">
               <i class="fas fa-circle"></i>
             </div>
