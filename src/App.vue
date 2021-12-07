@@ -31,6 +31,7 @@ export default {
 <style>
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Niramit:wght@300&display=swap");
+
 * {
   font-family: "Niramit", sans-serif;
 }

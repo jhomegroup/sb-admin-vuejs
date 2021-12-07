@@ -6,6 +6,7 @@ import Pages from '@/views/Pages'
 import Login from '@/views/Login'
 import Register from '@/views/Register'
 import Page404 from '@/views/Error/Page404'
+import Find from '@/views/Find'
 
 Vue.use(Router)
 
@@ -19,6 +20,11 @@ export default new Router({
       component: Page404,
     },
     {
+      path: '/find',
+      name: 'Find',
+      component: Find,
+    },
+    {
       path: '/login',
       name: 'Login',
       component: Login,
@@ -29,12 +35,13 @@ export default new Router({
       component: Register,
     },
     {
-      path: '/fontend',
+      path: '/frontend',
       name: 'Main',
+      redirect: '',
       component: Main,
       children: [
         {
-          path: 'dashboard',
+          path: '',
           name: 'Dashboard',
           component: Dashboard,
         },
